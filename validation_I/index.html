@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation I</title>
+    <style>
+        #error{
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!--validation: checking the validity and correctness of user input. It is the process 
+        of checking the data entered into an online form to ensure that it meets 
+        certain criteria or requirements. 
+        
+        sanitization: aims to remove any unwanted or dangerous elements from the 
+        input data to ensure that it is safe and free from any potentially 
+        harmful or malicious content.
+    -->
+    <h2>Form Validation One</h2>
+    <form action="">
+        <input type="text" placeholder="name ..." id="name" required> <br>
+        <input type="email" placeholder="email ..." id="email" required> <br>
+        <input type="password" placeholder="password ..." id="password" required> <br>
+        <button id="submit">Submit</button> <br>
+    </form>
+    <!--  -->
+
+    <div id="error"></div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
